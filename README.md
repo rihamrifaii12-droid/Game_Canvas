@@ -2,7 +2,7 @@
 
 ## 👩‍💻👨‍💻 Auteurs
 - Riham El Rifai
-- [Nom du binôme]
+- Mohamed Khalil Rahmouni
 
 Projet réalisé dans le cadre du TP Canvas – L3 MIAGE.
 

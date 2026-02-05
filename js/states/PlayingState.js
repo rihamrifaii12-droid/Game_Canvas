@@ -12,4 +12,9 @@ export default class PlayingState {
     draw(ctx) {
         this.player.draw(ctx);
     }
+
+    setCharacter(character) {
+        this.character = character;
+    }
+
 }

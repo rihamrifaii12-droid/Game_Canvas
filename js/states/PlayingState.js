@@ -1,20 +1,20 @@
 import Player from "../entities/Player.js";
 
 export default class PlayingState {
-    constructor() {
-        this.player = new Player(100, 300);
-    }
+  constructor() {
+    this.player = new Player(100, 300);
+  }
 
-    update(dt, input) {
-        this.player.update(dt, input);
-    }
+  setCharacter(character) {
+    this.character = character;
+    this.player.setColor(character.color); 
+  }
 
-    draw(ctx) {
-        this.player.draw(ctx);
-    }
+  update(dt, input) {
+    this.player.update(dt, input);
+  }
 
-    setCharacter(character) {
-        this.character = character;
-    }
-
+  draw(ctx) {
+    this.player.draw(ctx);
+  }
 }

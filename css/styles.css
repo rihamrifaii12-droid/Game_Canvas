@@ -1,3 +1,4 @@
+<<<<<<< feat/caracters
 body{
     margin: 0;
     padding: 0;
@@ -7,3 +8,18 @@ body{
     height: 100vh;
     background-color: #000; /* Couleur de fond du jeu */
 }
+=======
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  border: 1px solid black;
+  background-color: black;
+}
+>>>>>>> develop
